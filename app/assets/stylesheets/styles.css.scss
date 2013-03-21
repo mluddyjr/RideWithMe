@@ -1,0 +1,20 @@
+//$btnPrimaryBackground: #680000;
+$navbarBackgroundHighlight: #F7F7F7;
+$navbarBackground: #c0c0c0;
+$navbarLinkColor: #505050;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
